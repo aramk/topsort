@@ -5,6 +5,7 @@
   "authors": [
     "Samuel Neff"
   ],
+  "main": "lib/topsort.js",
   "license": "Apache2",
   "ignore": [
     "**/.*",
@@ -12,5 +13,6 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {}
 }
