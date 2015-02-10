@@ -10,7 +10,5 @@ Package.onUse(function(api) {
   api.addFiles([
     'lib/topsort.js'
   ], ['client', 'server']);
-  api.export([
-    // 'topsort'
-  ], ['client', 'server']);
+  // The library defines `topsort` on the global object, so no exports are needed.
 });
